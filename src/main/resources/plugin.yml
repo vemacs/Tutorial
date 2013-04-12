@@ -1,0 +1,10 @@
+author: admincraft
+database: false
+description: Tutorial plugin by tuxed and vemacs
+main: com.reddit.admincraft.plugins.tutorial.Tutorial
+name: Tutorial
+version: '1.0'
+permissions:
+  tutorial.receive:
+    description: Allows you to receive the join message
+    default: true
