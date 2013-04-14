@@ -6,9 +6,12 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Tutorial extends JavaPlugin implements Listener {
+    
+    @Override
     public void onDisable() {
     }
 
+    @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
     }
