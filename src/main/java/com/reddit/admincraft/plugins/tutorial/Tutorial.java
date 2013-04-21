@@ -18,7 +18,7 @@ public class Tutorial extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        if (player.hasPermission("tutorial.receive") {
+        if (event.getPlayer().hasPermission("tutorial.receive") {
             event.getPlayer().sendMessage("Hello, " + event.getPlayer().getDisplayName() + "!");
         }
     }
